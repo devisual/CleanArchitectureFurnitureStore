@@ -4,8 +4,11 @@ using System.Text;
 
 namespace FurnitureStore.Adapter.ProductList
 {
-    public interface IProductList
+    public class ProductListController
     {
-        IList<ProductsModel> Products { get; set; }
+        public void GetProducts()
+        {
+
+        }
     }
 }
